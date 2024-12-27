@@ -3,18 +3,21 @@ import React, { useState, useEffect, useRef } from "react";
 const VideoCarousel = ({ videoUrls }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef(null);
+  const videoRefs = useRef([]); // Array to store references to each video
 
   // Scroll to the next video
   const scrollNext = () => {
     if (carouselRef.current) {
-      carouselRef.current.scrollBy({ left: 300, behavior: "smooth" });
+      const newIndex = (currentIndex + 1) % videoUrls.length;
+      setCurrentIndex(newIndex);
     }
   };
 
   // Scroll to the previous video
   const scrollPrev = () => {
     if (carouselRef.current) {
-      carouselRef.current.scrollBy({ left: -300, behavior: "smooth" });
+      const newIndex = (currentIndex - 1 + videoUrls.length) % videoUrls.length;
+      setCurrentIndex(newIndex);
     }
   };
 
@@ -27,18 +30,29 @@ const VideoCarousel = ({ videoUrls }) => {
     return () => clearInterval(interval); // Clear the interval when the component unmounts
   }, [videoUrls.length]);
 
+  // Scroll to the current video
   useEffect(() => {
-    // Scroll to the current video
     if (carouselRef.current) {
       carouselRef.current.scrollTo({
-        left: currentIndex * 300, // Scroll to the current video index
+        left: currentIndex * 280, // Adjusted for the new width
         behavior: "smooth",
       });
     }
+
+    // Play the active video and pause the others
+    videoRefs.current.forEach((video, index) => {
+      if (video) {
+        if (index === currentIndex) {
+          video.play(); // Play the active video
+        } else {
+          video.pause(); // Pause all other videos
+        }
+      }
+    });
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full overflow-hidden ">
+    <div className="relative w-full">
       {/* Scroll Buttons */}
       <button
         onClick={scrollPrev}
@@ -56,7 +70,7 @@ const VideoCarousel = ({ videoUrls }) => {
       {/* Carousel Container */}
       <div
         ref={carouselRef}
-        className="flex overflow"
+        className="flex overflow-hidden" // Use overflow-hidden to hide anything outside the visible area
         style={{
           scrollSnapType: "x mandatory", // Ensures smooth snap to each video
           scrollBehavior: "smooth", // Smooth scroll behavior
@@ -67,18 +81,18 @@ const VideoCarousel = ({ videoUrls }) => {
             key={index}
             className="flex-shrink-0 mx-2 relative"
             style={{
-              width: "300px", // Set width to 300px
-              height: "600px", // Set height to 600px
+              width: "280px", // Adjusted width for smaller size
+              height: "580px", // Adjusted height for smaller size
               transform: index === currentIndex ? "scale(1)" : "scale(0.9)", // Scale the center video larger
               transition: "transform 0.3s ease", // Smooth scaling transition
               scrollSnapAlign: "center", // Ensure the video snaps to center
             }}
           >
             <video
+              ref={(el) => (videoRefs.current[index] = el)} // Store reference to the video
               src={url}
               muted
               loop
-              autoPlay // All videos will auto play
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
           </div>
