@@ -124,8 +124,8 @@ export const paginationItems = [
   },
   {
     _id: 1005,
-    img: bestSellerOne,
-    productName: "Flower Base",
+    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/exfoliating_body_scrub.png?updatedAt=1735340075182',
+    productName: "Exfoliating Body Scrub",
     price: "35.00",
     color: "Blank and White",
     badge: true,
