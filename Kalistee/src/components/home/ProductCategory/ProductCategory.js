@@ -52,7 +52,7 @@ const ProductCategory = () => {
 
     return (
         <div className="w-full flex justify-center mt-12">
-            <div className="flex flex-col md:flex-row w-[60%] h-auto items-center justify-between">
+            <div className="flex flex-col md:flex-row w-[60%] h-auto ">
                 {/* Container 1 with image */}
                 <div className="md:w-1/2 w-full overflow-hidden rounded-lg shadow-lg">
                     <img 

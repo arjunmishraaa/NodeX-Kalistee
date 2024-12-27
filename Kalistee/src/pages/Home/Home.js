@@ -34,7 +34,7 @@ const Home = () => {
         <div >
         <ProductCategory />
         </div>
-        <div className="mt-24  mb-30">
+        <div className="mt-24  mb-10">
           <VideoCarousel videoUrls={videoUrls} />
         </div>
         <BestSellers />
