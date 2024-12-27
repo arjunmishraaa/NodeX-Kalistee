@@ -15,26 +15,26 @@ const SpecialOffers = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
         <Product
           _id="1101"
-          img={spfOne}
-          productName="Cap for Boys"
+          img={'https://ik.imagekit.io/Jivan/BrightningSerum.png?updatedAt=1735335883052'}
+          productName="Brightening Serum"
           price="35.00"
-          color="Blank and White"
+          // color="Blank and White"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1102"
-          img={spfTwo}
-          productName="Tea Table"
+          img={'https://ik.imagekit.io/durgeshsh/NodeX_images/rejuvenating_hair_oil_bhringraj_outdoor.png?updatedAt=1735332166746'}
+          productName="Rejuvenating Hair Oil"
           price="180.00"
-          color="Gray"
+          // color="Gray"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1103"
-          img={spfThree}
-          productName="Headphones"
+          img={'https://ik.imagekit.io/Jivan/HairMask.png?updatedAt=1735336513805'}
+          productName="Anti-Frizz Hair Mask"
           price="25.00"
           color="Mixed"
           badge={true}
@@ -42,8 +42,8 @@ const SpecialOffers = () => {
         />
         <Product
           _id="1104"
-          img={spfFour}
-          productName="Sun glasses"
+          img={'https://ik.imagekit.io/Jivan/NightrepairingCream.png?updatedAt=1735335883142'}
+          productName="Night Repair Cream"
           price="220.00"
           color="Black"
           badge={true}
