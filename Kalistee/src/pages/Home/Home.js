@@ -34,8 +34,10 @@ const Home = () => {
         <HoverCategory/>
         <Sale />
         <NewArrivals />
+        <div >
         <ProductCategory />
-        <div className="my-24">
+        </div>
+        <div className="mt-24  mb-10">
           <VideoCarousel videoUrls={videoUrls} />
         </div>
         <BestSellers />
