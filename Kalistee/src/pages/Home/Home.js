@@ -11,6 +11,8 @@ import ProductCategory from "../../components/home/ProductCategory/ProductCatego
 import Marque2 from "../../components/home/Marque/Marque2";
 import GsapAnim from "../../components/gsapAnim/GsapAnim";
 
+import HoverCategory from "../../components/home/HoverCategory/HoverCategory";
+
 const Home = () => {
 
     const videoUrls = [
@@ -29,6 +31,7 @@ const Home = () => {
       <Banner />
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
+        <HoverCategory/>
         <Sale />
         <NewArrivals />
         <ProductCategory />

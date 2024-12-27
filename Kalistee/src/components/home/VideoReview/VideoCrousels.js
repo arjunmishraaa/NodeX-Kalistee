@@ -38,7 +38,7 @@ const VideoCarousel = ({ videoUrls }) => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full ">
+    <div className="relative w-full overflow-hidden ">
       {/* Scroll Buttons */}
       <button
         onClick={scrollPrev}
