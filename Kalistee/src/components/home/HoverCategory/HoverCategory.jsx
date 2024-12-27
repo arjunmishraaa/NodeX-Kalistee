@@ -10,13 +10,14 @@ const HoverCategory = () => {
 
     return (
         <div className="flex justify-center align-middle gap-2">
-            <div className="column  border-black border-2 rounded-lg">
+            <div className="column  border-black border-[2px] rounded-lg">
                 <img
                     src="https://ik.imagekit.io/durgeshsh/NodeX_images/1.png?updatedAt=1735332715936"
                     alt="Image 1"
                     onMouseOver={(e) => (e.currentTarget.src = 'https://ik.imagekit.io/durgeshsh/NodeX_images/2.png?updatedAt=1735332715994')}
                     onMouseOut={(e) => (e.currentTarget.src = 'https://ik.imagekit.io/durgeshsh/NodeX_images/1.png?updatedAt=1735332715936')}
                     // onClick={() => handleImageClick('/page1')}
+                    className='rounded-lg'
                 />
             </div>
             <div className="column  border-black border-2 rounded-lg">
@@ -26,6 +27,7 @@ const HoverCategory = () => {
                     onMouseOver={(e) => (e.currentTarget.src = 'https://ik.imagekit.io/durgeshsh/NodeX_images/4.png?updatedAt=1735332715941')}
                     onMouseOut={(e) => (e.currentTarget.src = 'https://ik.imagekit.io/durgeshsh/NodeX_images/3.png?updatedAt=1735332715884')}
                     // onClick={() => handleImageClick('/page2')}
+                    className='rounded-lg'
                 />
             </div>
             <div className="column  border-black border-2 rounded-lg">
@@ -35,6 +37,7 @@ const HoverCategory = () => {
                     onMouseOver={(e) => (e.currentTarget.src = 'https://ik.imagekit.io/durgeshsh/NodeX_images/6.png?updatedAt=1735332715990')}
                     onMouseOut={(e) => (e.currentTarget.src = 'https://ik.imagekit.io/durgeshsh/NodeX_images/5.png?updatedAt=1735332715880')}
                     // onClick={() => handleImageClick('/page3')}
+                    className='rounded-lg'
                 />
             </div>
         </div>

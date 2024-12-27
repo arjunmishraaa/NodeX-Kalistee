@@ -53,7 +53,7 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100001"
-            img={'https://ik.imagekit.io/Jivan/DetoxClayMask.png?updatedAt=1735335883145'}
+            img={'https://ik.imagekit.io/Jivan/DetoxClayMask.png?updatedAt=1735339160791'}
             productName="Detox Clay Mask"
             price="44.00"
             badge={true}
@@ -63,8 +63,8 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100002"
-            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/conditioner_spray_outdoor.png?updatedAt=1735332163862'}
-            productName="Leave-In Conditioner Spray"
+            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/conditioner_spray_outdoor.png?updatedAt=1735338725981'}
+            productName="Leafy-Conditioner Spray"
             price="250.00"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -73,7 +73,7 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100003"
-            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/scalp_detox_scrub.png?updatedAt=1735332167003'}
+            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/scalp_detox_scrub.png?updatedAt=1735338729117'}
             productName="Scalp Detox Scrub"
             price="80.00"
             // color="Mixed"
@@ -84,7 +84,7 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100004"
-            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/under-eye_cream_indoor.png?updatedAt=1735332169043'}
+            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/under-eye_cream_indoor.png?updatedAt=1735338730487'}
             productName="Under-Eye Cream"
             price="60.00"
             // color="Mixed"
