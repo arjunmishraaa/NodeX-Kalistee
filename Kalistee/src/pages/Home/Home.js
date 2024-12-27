@@ -31,8 +31,10 @@ const Home = () => {
       <div className="max-w-container mx-auto px-4">
         <Sale />
         <NewArrivals />
+        <div >
         <ProductCategory />
-        <div className="my-24">
+        </div>
+        <div className="mt-24  mb-30">
           <VideoCarousel videoUrls={videoUrls} />
         </div>
         <BestSellers />
