@@ -15,8 +15,8 @@ const BestSellers = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
         <Product
           _id="1011"
-          img={bestSellerOne}
-          productName="Flower Base"
+          img={'https://ik.imagekit.io/durgeshsh/NodeX_images/face_mist_outdoor.png?updatedAt=1735340075047'}
+          productName="Face Mist"
           price="35.00"
           color="Blank and White"
           badge={true}
@@ -24,8 +24,8 @@ const BestSellers = () => {
         />
         <Product
           _id="1012"
-          img={bestSellerTwo}
-          productName="New Backpack"
+          img={'https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277'}
+          productName="Hair Elixir"
           price="180.00"
           color="Gray"
           badge={false}
@@ -33,8 +33,8 @@ const BestSellers = () => {
         />
         <Product
           _id="1013"
-          img={bestSellerThree}
-          productName="Household materials"
+          img={'https://ik.imagekit.io/Jivan/GlowBoost.png?updatedAt=1735339160659'}
+          productName="RadiantWash"
           price="25.00"
           color="Mixed"
           badge={true}
@@ -42,8 +42,8 @@ const BestSellers = () => {
         />
         <Product
           _id="1014"
-          img={bestSellerFour}
-          productName="Travel Bag"
+          img={'https://ik.imagekit.io/durgeshsh/NodeX_images/lip_scrub_outdoor.png?updatedAt=1735340074697'}
+          productName="Lip Scrub"
           price="220.00"
           color="Black"
           badge={false}
