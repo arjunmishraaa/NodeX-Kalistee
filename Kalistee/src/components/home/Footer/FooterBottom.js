@@ -12,7 +12,7 @@ const FooterBottom = () => {
           Copyright 2024 | Kalistree | All Rights Reserved | Created by team NodeX with ❤️| 
           <a href="https://reactbd.com/" target="_blank" rel="noreferrer">
             <span className="ml-1 font-medium group-hover:text-primeColor">
-              Powered by Kalistree.com
+              Powered by Kalistee.com
             </span>
           </a>
         </p>
