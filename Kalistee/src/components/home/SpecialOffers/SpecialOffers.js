@@ -11,7 +11,7 @@ const SpecialOffers = () => {
           _id="1101"
           img={'https://ik.imagekit.io/Jivan/BrightningSerum.png?updatedAt=1735335883052'}
           productName="Brightening Serum"
-          price="35.00"
+          price="599.00"
           // color="Blank and White"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -20,7 +20,7 @@ const SpecialOffers = () => {
           _id="1102"
           img={'https://ik.imagekit.io/durgeshsh/NodeX_images/rejuvenating_hair_oil_bhringraj_outdoor.png?updatedAt=1735332166746'}
           productName="Rejuvenating Hair Oil"
-          price="180.00"
+          price="249.00"
           // color="Gray"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -29,7 +29,7 @@ const SpecialOffers = () => {
           _id="1103"
           img={'https://ik.imagekit.io/Jivan/HairMask.png?updatedAt=1735336513805'}
           productName="Anti-Frizz Hair Mask"
-          price="25.00"
+          price="399.00"
           color="Mixed"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -38,9 +38,9 @@ const SpecialOffers = () => {
           _id="1104"
           img={'https://ik.imagekit.io/Jivan/NightrepairingCream.png?updatedAt=1735335883142'}
           productName="Night Repair Cream"
-          price="220.00"
+          price="799.00"
           color="Black"
-          badge={true}
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
       </div>

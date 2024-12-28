@@ -17,7 +17,7 @@ const BestSellers = () => {
           _id="1011"
           img={'https://ik.imagekit.io/Jivan/NightrepairingCream.png?updatedAt=1735339160726'}
           productName="Night Repair Cream"
-          price="180.00"
+          price="799.00"
           // color="Gray"
           badge={false}
           des="A nourishing overnight cream with Ashwagandha, Bakuchiol (natural retinol), and Almond Oil to repair, hydrate, and rejuvenate skin while you sleep."
@@ -27,27 +27,23 @@ const BestSellers = () => {
           _id="1012"
           img={'https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277'}
           productName="Hair Elixir"
-          price="180.00"
+          price="399.00"
           // color="Gray"
           badge={false}
           des="A refreshing cooling mist made with Cucumber and Rose Water to provide instant hydration and revitalize the skin.
 Sizes: 100ml.
 How to Use: Hold the bottle at arm's length and mist evenly over the face for a refreshing boost."
         />
+        {/* scdchasio */}
         <Product
-          _id="1013"
-          img={'https://ik.imagekit.io/Jivan/GlowBoost.png?updatedAt=1735339160659'}
-          productName="RadiantWash"
-          price="25.00"
-          // color="Mixed"
-          badge={true}
-          des="A gentle daily cleanser with Turmeric, Neem, and Aloe Vera to combat acne, reduce inflammation, and cleanse impurities for a clear, glowing complexion.
-Variations:
-For Oily Skin: With Tea Tree Oil and Lemon Extract to control excess oil and prevent breakouts.
-For Dry Skin: Enriched with Honey and Almond Oil for deep hydration and nourishment.
-For Sensitive Skin: With Chamomile and Calendula to soothe and calm irritation.
-How to Use: Apply to wet skin, massage gently, and rinse thoroughly for refreshed, clear skin. Available in 100ml and 200ml sizes."
-        />
+            _id="100004"
+            img={'https://ik.imagekit.io/durgeshsh/NodeX_images/under-eye_cream_indoor.png?updatedAt=1735338730487'}
+            productName="Under-Eye Cream"
+            price="399.00"
+            // color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
         <Product
           _id="1014"
           img={'https://ik.imagekit.io/durgeshsh/NodeX_images/lip_scrub_outdoor.png?updatedAt=1735340074697'}
