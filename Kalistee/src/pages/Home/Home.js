@@ -32,7 +32,7 @@ const Home = () => {
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
         <HoverCategory/>
-        {/* <Sale /> */}
+        <Sale />
         <NewArrivals />
         <div className="mb-20" >
         <ProductCategory />

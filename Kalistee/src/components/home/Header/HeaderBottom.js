@@ -41,15 +41,12 @@ const HeaderBottom = () => {
   return (
     <div className="w-full bg-[#F5F5F3] relative">
       <div className="max-w-container mx-auto">
-        <Flex className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full px-4 pb-4 lg:pb-0 h-full lg:h-24">
+        <Flex className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full px-4 lg:pb-0 h-full lg:h-24">
           <div
             onClick={() => setShow(!show)}
             ref={ref}
             className="flex h-14 cursor-pointer items-center gap-2 text-primeColor"
           >
-            <HiOutlineMenuAlt4 className="w-5 h-5" />
-            <p className="text-[14px] font-normal">Shop by Category</p>
-
             {show && (
               <motion.ul
                 initial={{ y: 30, opacity: 0 }}
