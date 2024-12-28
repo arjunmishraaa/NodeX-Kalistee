@@ -23,6 +23,7 @@ import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
 import Marquee from "./components/home/Marque/Marque.js";
+// import Chatbot from "./components/Chatbot/Chatbot";
 
 const Layout = () => {
   return (
@@ -65,6 +66,7 @@ function App() {
     <div className="font-bodyFont">
       <RouterProvider router={router} />
     </div>
+    
   );
 }
 

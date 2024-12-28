@@ -104,7 +104,7 @@ const Banner = () => {
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgOne} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/1.png?updatedAt=1735348714593"} />
           </div>
         </Link>
         <Link to="/offer">
