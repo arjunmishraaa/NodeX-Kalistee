@@ -41,24 +41,24 @@ const Marquee = () => {
       </div>
 
       {/* Marquee content */}
-      <div className="flex animate-marquee font-bodyFont  py-2">
+      <div className="relative flex animate-marquee font-bodyFont py-2 whitespace-nowrap">
         {/* Repeat the marquee content to create the infinite loop effect */}
-        <span className="px-12 text-sm  text-gray-800">Arjun</span>
-        <span className="px-12 text-sm  text-gray-800">Aryan</span>
-        <span className="px-12 text-sm  text-gray-800">Durgesh</span>
-        <span className="px-12 text-sm  text-gray-800">Jivan</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Tested By Dermatologist.</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> approved by Organic and AYUSH</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Clean ingredient</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Innovative formulation</span>
 
-        {/* Duplicate the marquee content for a seamless loop */}
-        <span className="px-12 text-sm  text-gray-800 z-0">Arjun</span>
-        <span className="px-12 text-sm  text-gray-800 z-0" >Aryan</span>
-        <span className="px-12 text-sm  text-gray-800 z-0">Durgesh</span>
-        <span className="px-12 text-sm  text-gray-800 z-0">Jivan</span>
+        {/* Repeat the marquee content to create the infinite loop effect */}
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Tested By Dermatologist.</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> approved by Organic and AYUSH</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Clean ingredient</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Innovative formulation</span>
 
-        {/* Duplicate the marquee content for a seamless loop */}
-        <span className="px-12 text-sm  text-gray-800 z-0">Arjun</span>
-        <span className="px-12 text-sm  text-gray-800 z-0" >Aryan</span>
-        <span className="px-12 text-sm  text-gray-800 z-0">Durgesh</span>
-        <span className="px-12 text-sm  text-gray-800 z-0">Jivan</span>
+        {/* Repeat the marquee content to create the infinite loop effect */}
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Tested By Dermatologist.</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> approved by Organic and AYUSH</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Clean ingredient</span>
+        <span className="px-12 text-sm text-gray-800"><i className="ri-leaf-fill"></i> Innovative formulation</span>
       </div>
     </div>
   );
