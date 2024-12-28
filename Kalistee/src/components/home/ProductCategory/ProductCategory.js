@@ -39,7 +39,7 @@ const ProductCategory = () => {
             ease: "power2.out",
             scrollTrigger: {
                 trigger: ".yellow-container",
-                start: "top 75%", // Start the animation when the top of the yellow container is 75% in view
+                start: "top 90%", // Start the animation when the top of the yellow container is 75% in view
                 end: "bottom 25%", // End the animation when the bottom of the yellow container is 25% in view
                 scrub: true,
                 markers: false, // Disable the scroll trigger markers
@@ -51,7 +51,7 @@ const ProductCategory = () => {
     }, []);
 
     return (
-        <div className="w-full flex justify-center mt-12">
+        <div className="w-full flex justify-center mt-1">
             <div className="flex flex-col md:flex-row w-[60%] h-auto ">
                 {/* Container 1 with image */}
                 <div className="md:w-1/2 w-full overflow-hidden rounded-lg shadow-lg">
