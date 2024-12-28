@@ -9,7 +9,7 @@ const HoverCategory = () => {
     // };
 
     return (
-        <div className="flex justify-center align-middle gap-2">
+        <div className="flex justify-center align-middle gap-2 my-20" >
             <div className="column  border-black border-[2px] rounded-lg">
                 <img
                     src="https://ik.imagekit.io/Jivan/4.png?updatedAt=1735336905440"

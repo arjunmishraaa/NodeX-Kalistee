@@ -52,7 +52,7 @@ const VideoCarousel = ({ videoUrls }) => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full my-20">
       {/* Scroll Buttons */}
       <button
         onClick={scrollPrev}

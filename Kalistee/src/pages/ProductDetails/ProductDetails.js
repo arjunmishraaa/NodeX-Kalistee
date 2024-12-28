@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 import ProductInfo from "../../components/pageProps/productDetails/ProductInfo";
 import ProductsOnSale from "../../components/pageProps/productDetails/ProductsOnSale";
-import Reviews from "../../components/pageProps/Reviews/Reviews"
+import Reviews from "../../components/pageProps/Reviews/Reviews"    
 
 const ProductDetails = () => {
     const location = useLocation();

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { logoLight } from "../../assets/images";
+// import {orebiLogo}   from "../../assets/images/index";
 
 const SignIn = () => {
   // ============= Initial State Start here =============
@@ -48,7 +48,7 @@ const SignIn = () => {
       <div className="w-1/2 hidden lgl:inline-flex h-full text-white">
         <div className="w-[450px] h-full bg-primeColor px-10 flex flex-col gap-6 justify-center">
           <Link to="/">
-            <img src={logoLight} alt="logoImg" className="w-28" />
+            <img src={"https://ik.imagekit.io/durgeshsh/NodeX_images/Kalistee-logo.png?updatedAt=1735357212192"} alt="logoImg" className="w-48" />
           </Link>
           <div className="flex flex-col gap-1 -mt-1">
             <h1 className="font-titleFont text-xl font-medium">

@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import {
-  bannerImgOne,
-  bannerImgTwo,
-  bannerImgThree,
-} from "../../assets/images";
 import Image from "../designLayouts/Image";
 
 const Banner = () => {
@@ -104,17 +99,17 @@ const Banner = () => {
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgOne} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/3.svg?updatedAt=1735355756921"} />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgTwo} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/1.svg?updatedAt=1735355756456"} />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgThree} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/2.svg?updatedAt=1735355756884"} />
           </div>
         </Link>
       </Slider>
