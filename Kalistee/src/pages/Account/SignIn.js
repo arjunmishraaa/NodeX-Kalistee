@@ -62,11 +62,10 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Get started fast with OREBI
+                Get started fast with Kalistee
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              "Get up and running quickly with Kalistee, the platform that enables seamless access to its services."
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -75,11 +74,10 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Access all OREBI services
+                Access all Kalistee services
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              The line "Access all Kalistee services" suggests that the code in the file SignIn.js is related to providing access to various services offered by Kalistee.
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -91,14 +89,13 @@ const SignIn = () => {
                 Trusted by online Shoppers
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              The provided code selection is a string that states "Trusted by online Shoppers".
             </p>
           </div>
           <div className="flex items-center justify-between mt-10">
             <Link to="/">
               <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-                © OREBI
+                © Kalistee
               </p>
             </Link>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
