@@ -99,17 +99,17 @@ const Banner = () => {
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={"https://ik.imagekit.io/Jivan/3.svg?updatedAt=1735353510944"} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/3.svg?updatedAt=1735355756921"} />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={"https://ik.imagekit.io/Jivan/1.svg?updatedAt=1735353510796"} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/1.svg?updatedAt=1735355756456"} />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={"https://ik.imagekit.io/Jivan/2.svg?updatedAt=1735353510742"} />
+            <Image imgSrc={"https://ik.imagekit.io/Jivan/2.svg?updatedAt=1735355756884"} />
           </div>
         </Link>
       </Slider>
