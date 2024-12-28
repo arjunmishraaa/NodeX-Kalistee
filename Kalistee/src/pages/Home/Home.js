@@ -7,7 +7,7 @@ import NewArrivals from "../../components/home/NewArrivals/NewArrivals";
 import SpecialOffers from "../../components/home/SpecialOffers/SpecialOffers";
 import YearProduct from "../../components/home/YearProduct/YearProduct";
 import VideoCarousel from "../../components/home/VideoReview/VideoCrousels"
-import ProductCategory from "../../components/home/ProductCategory/ProductCategory";
+// import ProductCategory from "../../components/home/ProductCategory/ProductCategory";
 import Marque2 from "../../components/home/Marque/Marque2";
 import GsapAnim from "../../components/gsapAnim/GsapAnim";
 
@@ -32,10 +32,10 @@ const Home = () => {
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
         <HoverCategory/>
-        <Sale />
+        {/* <Sale /> */}
         <NewArrivals />
         <div className="mb-20" >
-        <ProductCategory />
+        {/* <ProductCategory /> */}
         </div>
         <hr class="border-t-2 border-gray-400"/>
         <div className="mt-5  mb-10">

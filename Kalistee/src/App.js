@@ -28,7 +28,7 @@ import Marquee from "./components/home/Marque/Marque.js";
 const Layout = () => {
   return (
     <div>
-    <Marquee/>
+      <Marquee />
       <Header />
       <HeaderBottom />
       <SpecialCase />
@@ -66,7 +66,7 @@ function App() {
     <div className="font-bodyFont">
       <RouterProvider router={router} />
     </div>
-    
+
   );
 }
 

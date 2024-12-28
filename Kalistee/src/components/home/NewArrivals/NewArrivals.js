@@ -41,7 +41,7 @@ const NewArrivals = () => {
     ],
   };
   return (
-    <div className="w-full pb-16">
+    <div className="w-full pb-16 my-20" >
       <Heading heading="New Arrivals" />
       <Slider {...settings}>
         <div className="px-2">
