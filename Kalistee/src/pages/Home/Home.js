@@ -34,10 +34,10 @@ const Home = () => {
         {/* <HoverCategory/> */}
         <Sale />
         <NewArrivals />
-        <div className="mb-20" >
+        <div className="mb-10" >
         <ProductCategory />
         </div>
-        <hr class="border-t-2 border-gray-400"/>
+        <hr class="border-t-2 border-gray-300"/>
         <div className="mt-5  mb-10">
           <VideoCarousel videoUrls={videoUrls} />
         </div>
