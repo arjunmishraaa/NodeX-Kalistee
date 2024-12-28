@@ -164,7 +164,7 @@ export const paginationItems = [
   },
   {
     _id: 1011,
-    img: 'https://ik.imagekit.io/Jivan/HairMask.png?updatedAt=1735339728185',
+    img: "https://ik.imagekit.io/Jivan/HairMask.png?updatedAt=1735339728185",
     productName: "Anti-Frizz Hair Mask",
     price: "80.00",
     color: "Mixed",
@@ -173,35 +173,35 @@ export const paginationItems = [
   },
   {
     _id: 1012,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/scalp_detox_scrub.png?updatedAt=1735338729117',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/scalp_detox_scrub.png?updatedAt=1735338729117",
     productName: "Scalp Detox Scrub",
     price: "60.00",
     color: "Mixed",
     badge: false,
-    des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.',
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
     _id: 1013,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/hair_growth_tonic.png?updatedAt=1735340418121',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/hair_growth_tonic.png?updatedAt=1735340418121",
     productName: "Hair Growth Tonic",
     price: "60.00",
     color: "Mixed",
     badge: false,
-    des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.',
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
 
   {
     _id: 1014,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/face_mist_outdoor.png?updatedAt=1735340075047',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/face_mist_outdoor.png?updatedAt=1735340075047",
     productName: "Face Mist",
     price: "250.00",
     color: "Black",
     badge: true,
-    des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.',
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
     _id: 1015,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277",
     productName: "Hair Elixir",
     price: "60.00",
     color: "Mixed",
@@ -210,7 +210,7 @@ export const paginationItems = [
   },
   {
     _id: 1016,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/multipurpose_balm_outdoor.png?updatedAt=1735338728810',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/multipurpose_balm_outdoor.png?updatedAt=1735338728810",
     productName: "Multipurpose Balm",
     price: "250.00",
     color: "Black",
@@ -219,7 +219,7 @@ export const paginationItems = [
   },
   {
     _id: 1017,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/sunscreen_lotion_outdoor.png?updatedAt=1735340075097',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/sunscreen_lotion_outdoor.png?updatedAt=1735340075097",
     productName: "Sunscreen Lotion",
     price: "220.00",
     color: "Black",
@@ -228,16 +228,16 @@ export const paginationItems = [
   },
   {
     _id: 1018,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/under-eye_cream_indoor.png?updatedAt=1735338730487',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/under-eye_cream_indoor.png?updatedAt=1735338730487",
     productName: "Under-Eye Cream",
     price: "44.00",
     color: "Black",
     badge: true,
-    des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.',
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
     _id: 1019,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/exfoliating_body_scrub.png?updatedAt=1735340075182',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/exfoliating_body_scrub.png?updatedAt=1735340075182",
     productName: "Exfoliating Body Scrub",
     price: "250.00",
     badge: true,
@@ -245,7 +245,7 @@ export const paginationItems = [
   },
   {
     _id: 1020,
-    img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/lip_scrub_outdoor.png?updatedAt=1735340074697',
+    img: "https://ik.imagekit.io/durgeshsh/NodeX_images/lip_scrub_outdoor.png?updatedAt=1735340074697",
     productName: "Lip Scrub",
     price: "80.00",
     badge: true,
@@ -253,3 +253,4 @@ export const paginationItems = [
   },
   
 ];
+// =================== PaginationItems End here =================
