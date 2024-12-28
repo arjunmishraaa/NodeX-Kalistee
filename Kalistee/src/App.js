@@ -65,6 +65,7 @@ function App() {
   return (
     <div className="font-bodyFont">
       <RouterProvider router={router} />
+
     </div>
 
   );
