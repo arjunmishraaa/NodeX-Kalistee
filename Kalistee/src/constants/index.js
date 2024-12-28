@@ -1,17 +1,3 @@
-import {
-  spfOne,
-  spfTwo,
-  spfThree,
-  spfFour,
-  bestSellerOne,
-  bestSellerTwo,
-  bestSellerThree,
-  bestSellerFour,
-  newArrOne,
-  newArrTwo,
-  newArrThree,
-  newArrFour,
-} from "../assets/images/index";
 
 // =================== NavBarList Start here ====================
 export const navBarList = [
@@ -51,7 +37,7 @@ export const SplOfferData = [
     price: "35.00",
     // color: "Blank and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "A gentle daily cleanser with Turmeric, Neem, and Aloe Vera to combat acne, reduce inflammation, and cleanse impurities for a clear, glowing complexion.",
   },
   {
     _id: "202",
@@ -91,7 +77,7 @@ export const paginationItems = [
     img: 'https://ik.imagekit.io/durgeshsh/NodeX_images/hair_elixir_outdoor.png?updatedAt=1735340075277',
     productName: "Hair Elixir",
     price: "35.00",
-    color: "Blank and White",
+    // color: "Blank and White",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
