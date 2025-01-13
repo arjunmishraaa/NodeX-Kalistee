@@ -24,7 +24,7 @@ const BannerBottom = () => {
     //     </div>
     //   </div>
     // </div>
-    <span></span>
+    <div className="mt-2 border-t-2"></div>
   );
 };
 

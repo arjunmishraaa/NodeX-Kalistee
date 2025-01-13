@@ -39,41 +39,34 @@ const GsapAnim = () => {
   }, []);
 
   return (
-    <div className=" space-x-4 flex justify-center items-center flex-wrap  h-[350px] bg-zinc-100 gap-20 text-center">
+    <div className="space-x-4 flex justify-center items-center flex-wrap h-[350px] bg-zinc-100 gap-6 text-center">
       {/* Correct image paths using the imports */}
-      <span className="image">
-        <img src={a1} alt="Image1" className="w-24 h-24 object-cover" />
-        <br />
-        <p>PURPOSEFUL <br /> ACTIVES</p>
+      <span className="image flex flex-col items-center">
+        <img src={a1} alt="Image1" className="w-20 sm:w-24 md:w-28 lg:w-32 h-20 sm:h-24 md:h-28 lg:h-32 object-cover" />
+        <p className="text-sm sm:text-base md:text-lg mt-2">PURPOSEFUL <br /> ACTIVES</p>
       </span>
-      <span className="image">
-        <img src={a2} alt="Image2" className="w-24 h-24 object-cover" />
-        <br />
-        <p>PURPOSEFUL <br /> ACTIVES</p>
+      <span className="image flex flex-col items-center">
+        <img src={a2} alt="Image2" className="w-20 sm:w-24 md:w-28 lg:w-32 h-20 sm:h-24 md:h-28 lg:h-32 object-cover" />
+        <p className="text-sm sm:text-base md:text-lg mt-2">PURPOSEFUL <br /> ACTIVES</p>
       </span>
-      <span className="image">
-        <img src={a3} alt="Image3" className="w-24 h-24 object-cover" />
-        <br />
-        <p>PURPOSEFUL <br /> ACTIVES</p>
+      <span className="image flex flex-col items-center">
+        <img src={a3} alt="Image3" className="w-20 sm:w-24 md:w-28 lg:w-32 h-20 sm:h-24 md:h-28 lg:h-32 object-cover" />
+        <p className="text-sm sm:text-base md:text-lg mt-2">PURPOSEFUL <br /> ACTIVES</p>
       </span>
-      <span className="image">
-        <img src={a4} alt="Image4" className="w-24 h-24 object-cover" />
-        <br />
-        <p>PURPOSEFUL <br /> ACTIVES</p>
+      <span className="image flex flex-col items-center">
+        <img src={a4} alt="Image4" className="w-20 sm:w-24 md:w-28 lg:w-32 h-20 sm:h-24 md:h-28 lg:h-32 object-cover" />
+        <p className="text-sm sm:text-base md:text-lg mt-2">PURPOSEFUL <br /> ACTIVES</p>
       </span>
-      <span className="image">
-        <img src={a5} alt="Image5" className="w-24 h-24 object-cover" />
-        <br />
-        <p>PURPOSEFUL <br /> ACTIVES</p>
+      <span className="image flex flex-col items-center">
+        <img src={a5} alt="Image5" className="w-20 sm:w-24 md:w-28 lg:w-32 h-20 sm:h-24 md:h-28 lg:h-32 object-cover" />
+        <p className="text-sm sm:text-base md:text-lg mt-2">PURPOSEFUL <br /> ACTIVES</p>
       </span>
-      <span className="image">
-        <img src={a6} alt="Image6" className="w-24 h-24 object-cover" />
-        <br />
-        <p>PURPOSEFUL <br /> ACTIVES</p>
+      <span className="image flex flex-col items-center">
+        <img src={a6} alt="Image6" className="w-20 sm:w-24 md:w-28 lg:w-32 h-20 sm:h-24 md:h-28 lg:h-32 object-cover" />
+        <p className="text-sm sm:text-base md:text-lg mt-2">PURPOSEFUL <br /> ACTIVES</p>
       </span>
     </div>
   );
 };
 
 export default GsapAnim;
-
